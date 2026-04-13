@@ -2,7 +2,7 @@
     --primary-color: #ffffff;
     --accent-color: #6366f1;
     --text-color: #ffffff;
-    --bg-overlay: rgba(0, 0, 0, 0.45);
+    --bg-overlay: rgba(0, 0, 0, 0.3);
     --glass-bg: rgba(255, 255, 255, 0.1);
     --glass-border: rgba(255, 255, 255, 0.2);
     --font-main: 'Outfit', sans-serif;
@@ -160,6 +160,19 @@ header {
     font-style: italic;
     font-family: var(--font-heading);
     opacity: 0.9;
+    line-height: 1.6;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Only "Inaugurated by" italic */
+.subtitle em {
+    font-style: italic;
+}
+
+/* Name and designation bold (non-italic) */
+.subtitle strong {
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* Timer Styles */
