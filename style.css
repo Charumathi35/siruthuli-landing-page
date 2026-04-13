@@ -171,7 +171,8 @@ header {
 
 /* Name and designation bold (non-italic) */
 .subtitle strong {
-    font-weight: bold;
+    font-size: clamp(1.9rem, 2vw, 1.4rem);
+    font-weight: 600;
     font-style: normal;
 }
 
